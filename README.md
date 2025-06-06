@@ -52,7 +52,6 @@ Final model deployed using a simple Flask API (app.py) accepting patient inputs 
 
 Getting Started
 
-Note: This repo is for demonstration and academic purposes. It does not include sensitive patient data or any live API functionality.
 
 Requirements
 
