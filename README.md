@@ -22,52 +22,52 @@ After hyperparameter tuning, the optimal parameters for the XGBoost classifier w
 n_estimators = 100
 max_depth = 10
 learning_rate = 0.1
-
+```
 
 Key Features
 
-    Exploratory Data Analysis (EDA)
-    Visualizations such as histograms and correlation heatmaps were used to uncover patterns and guide feature selection.
+Exploratory Data Analysis (EDA)
+Visualizations such as histograms and correlation heatmaps were used to uncover patterns and guide feature selection.
 
-        Fig. 1: Histogram of readmission rate distribution by age
+Fig. 1: Histogram of readmission rate distribution by age
 
-        Fig. 2: Correlation matrix for key features
+Fig. 2: Correlation matrix for key features
 
-    Models Compared
+Models Compared
 
-        Logistic Regression
+Logistic Regression
 
-        Random Forest Classifier
+Random Forest Classifier
 
-        XGBoost (Final chosen model)
+XGBoost (Final chosen model)
 
-    Handling Class Imbalance
-    Used SMOTE (Synthetic Minority Over-sampling Technique) to rebalance training data and mitigate bias toward the majority class.
+Handling Class Imbalance
+Used SMOTE (Synthetic Minority Over-sampling Technique) to rebalance training data and mitigate bias toward the majority class.
+    
+Evaluation Metrics
+Accuracy, Precision, Recall, F1 Score, and Confusion Matrices. F1 score was prioritized due to the clinical importance of minimizing false negatives.
 
-    Evaluation Metrics
-    Accuracy, Precision, Recall, F1 Score, and Confusion Matrices. F1 score was prioritized due to the clinical importance of minimizing false negatives.
-
-    Deployment
-    Final model deployed using a simple Flask API (app.py) accepting patient inputs and returning predictions in real-time.
+Deployment
+Final model deployed using a simple Flask API (app.py) accepting patient inputs and returning predictions in real-time.
 
 Getting Started
 
-    Note: This repo is for demonstration and academic purposes. It does not include sensitive patient data or any live API functionality.
+Note: This repo is for demonstration and academic purposes. It does not include sensitive patient data or any live API functionality.
 
 Requirements
 
-    Python 3.8+
+Python 3.8+
 
-    scikit-learn
+scikit-learn
 
-    xgboost
+xgboost
 
-    pandas
+pandas
 
-    flask
+flask
 
-    imbalanced-learn
+imbalanced-learn
 
-    matplotlib / seaborn (for EDA)
+matplotlib / seaborn (for EDA)
 
 
