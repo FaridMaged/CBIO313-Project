@@ -49,7 +49,6 @@ Accuracy, Precision, Recall, F1 Score, and Confusion Matrices. F1 score was prio
 Deployment
 Final model deployed using a simple Flask API (app.py) accepting patient inputs and returning predictions in real-time.
 
-Getting Started
 
 
 Requirements
